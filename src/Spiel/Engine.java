@@ -35,7 +35,7 @@ public class Engine implements Sender, Empfänger{
 
     //Senden
     @Override
-    public void sendWürfel(int random){
+    public void sendWürfeln(int random){
         random = (int) Math.random()*(10);
 
         this.state = Status.
